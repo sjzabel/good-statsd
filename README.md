@@ -32,4 +32,4 @@ creates a new GoodStatsd object with the following arguments
 
 ### Statsd
 TODO:  Fill this in once I figure out how I want this to be
-exstensible
+extensible
