@@ -1,14 +1,15 @@
 {
-  "name": "good-udp",
-  "version": "2.0.0",
-  "repository": "git://github.com/hapijs/good-udp",
-  "description": "UDP broadcasting for Good process monitor",
+  "name": "good-statsd",
+  "version": "1.0.0",
+  "repository": "git://github.com/sjzabel/good-statsd",
+  "description": "UDP broadcasting for Good process monitor + customizable statsd emmiter",
   "main": "index.js",
   "scripts": {
     "test": "make test-cov"
   },
   "dependencies": {
     "good-reporter": "3.x.x",
+    "good-udp": "2.x.x",
     "hoek": "2.x.x",
     "json-stringify-safe": "5.x.x"
   },
@@ -22,7 +23,7 @@
   "licenses": [
     {
       "type": "BSD",
-      "url": "http://github.com/hapijs/good-udp/raw/master/LICENSE"
+      "url": "http://github.com/sjzabel/good-statsd/raw/master/LICENSE"
     }
   ]
 }
