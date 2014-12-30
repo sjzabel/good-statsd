@@ -10,6 +10,7 @@
   "dependencies": {
     "good-reporter": "3.x.x",
     "hoek": "2.x.x",
+    "statsd-client": "0.0.17",
     "underscore": "^1.7.0"
   },
   "devDependencies": {
