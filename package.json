@@ -9,9 +9,8 @@
   },
   "dependencies": {
     "good-reporter": "3.x.x",
-    "good-udp": "2.x.x",
     "hoek": "2.x.x",
-    "json-stringify-safe": "5.x.x"
+    "underscore": "^1.7.0"
   },
   "devDependencies": {
     "lab": "5.x.x",
