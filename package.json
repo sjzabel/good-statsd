@@ -1,7 +1,10 @@
 {
   "name": "good-statsd",
   "version": "1.0.0",
-  "repository": "git://github.com/sjzabel/good-statsd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sjzabel/good-statsd"
+  },
   "description": "UDP broadcasting for Good process monitor + customizable statsd emmiter",
   "main": "index.js",
   "scripts": {
@@ -25,5 +28,18 @@
       "type": "BSD",
       "url": "http://github.com/sjzabel/good-statsd/raw/master/LICENSE"
     }
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/sjzabel/good-statsd/issues"
+  },
+  "homepage": "https://github.com/sjzabel/good-statsd",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "good",
+    "statsd"
+  ],
+  "author": "Stephen J. Zabel <sjzabel@gmail.com> (https://github.com/sjzabel)",
+  "license": "BSD"
 }
